@@ -3,6 +3,6 @@
 #include "module.h"
 
 void sample() {
-	printf("name: %s\n", module_name());
-	printf("desc: %s\n", module_description());
+	(void)module_name();
+	(void)module_description();
 }
